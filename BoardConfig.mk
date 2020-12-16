@@ -111,6 +111,7 @@ ifeq ($(HOST_OS),linux)
     endif
   endif
 endif
+DONT_UNCOMPRESS_PRIV_APPS_DEXS := true
 
 # Display
 TARGET_SCREEN_DENSITY := 420
